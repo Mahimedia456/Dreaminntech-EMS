@@ -1,0 +1,17 @@
+{
+  "name": "dream-employee-system",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace apps/app\" \"npm run dev --workspace apps/api\"",
+    "dev:app": "npm run dev --workspace apps/app",
+    "dev:api": "npm run dev --workspace apps/api"
+  },
+  "workspaces": [
+    "apps/app",
+    "apps/api"
+  ],
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}
