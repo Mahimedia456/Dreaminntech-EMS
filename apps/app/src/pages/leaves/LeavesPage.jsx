@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { CalendarDays, CheckCircle, Clock3, Plus, XCircle } from "lucide-react";
+import React from "react";
 
 import { getAuthUser } from "../../utils/auth";
 import {
