@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { ChevronDown, LogOut, User, UserPen } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { getAuthUser, logout } from "../utils/auth";

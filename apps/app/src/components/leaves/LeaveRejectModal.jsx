@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { X } from "lucide-react";
 
 export default function LeaveRejectModal({ open, onClose, onSubmit, selected }) {

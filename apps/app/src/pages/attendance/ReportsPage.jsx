@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { CalendarDays, Download, FileText, Search } from "lucide-react";
 import { fetchAttendanceHistory } from "../../services/attendanceApi";
 

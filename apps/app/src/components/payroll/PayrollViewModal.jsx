@@ -1,3 +1,4 @@
+import React from "react";
 import { X, Download } from "lucide-react";
 import { downloadPayrollPdf } from "../../services/payrollApi";
 

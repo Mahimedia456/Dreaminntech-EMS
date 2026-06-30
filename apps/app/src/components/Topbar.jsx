@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Bell, Menu, Search, Settings } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { getAuthUser } from "../utils/auth";

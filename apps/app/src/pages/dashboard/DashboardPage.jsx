@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { fetchDashboard } from "../../services/dashboardApi";
 
 import AdminDashboardPage from "./AdminDashboardPage";

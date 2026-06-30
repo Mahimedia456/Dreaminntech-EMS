@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { X } from "lucide-react";
 
 export default function ExpenseReviewModal({ open, expense, onClose, onSubmit }) {

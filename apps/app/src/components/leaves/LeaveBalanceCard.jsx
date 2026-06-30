@@ -1,3 +1,4 @@
+import React from "react";
 export default function LeaveBalanceCard({ balance }) {
   const used = Number(balance.used_days || 0);
   const allocated = Number(balance.allocated_days || 0);

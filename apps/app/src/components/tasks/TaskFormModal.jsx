@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { X } from "lucide-react";
 import { fetchEmployees } from "../../services/employeesApi";
 import { fetchProjects } from "../../services/projectsApi";
